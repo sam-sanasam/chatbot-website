@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot Application</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="chat-container">
-    <div id="chat-box" class="chat-box">
-        <div id="response-box" class="response-box"></div>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+        <input id="user-input" type="text" placeholder="Type your message here...">
+        <button id="send-btn">Send</button>
     </div>
-    <form id="chat-form" class="chat-form">
-        <input type="text" id="user-input" placeholder="Type your question here..." required>
-        <button type="submit">Send</button>
-    </form>
-</div>
-
-<script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
